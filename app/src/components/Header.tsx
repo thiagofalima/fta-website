@@ -1,7 +1,7 @@
 
 import styled from "styled-components"
 
-const HeaderWrapper = styled.div`
+const HeaderWrapper = styled.header`
     width: 100vw;
     color: white;
     padding: 16px;
