@@ -11,7 +11,7 @@ const HeroWrapper = styled.div`
 export const Hero = () => {
   return (
     <HeroWrapper>
-      <Center>
+      <Center flexDirection="column">
         <img src={MyLogo} />
       </Center>
     </HeroWrapper>
