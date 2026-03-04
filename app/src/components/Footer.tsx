@@ -10,13 +10,12 @@ const FooterWrapper = styled.footer`
     justify-content: space-around;
     position: fixed;
     bottom: 20px;
+    left: 0;
 
     hr {
         width: 80%;
         border: 1px solid #344969;
     }
-
-
 `
 
 export const Footer = () => {
