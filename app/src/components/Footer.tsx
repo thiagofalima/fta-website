@@ -4,13 +4,11 @@ const FooterWrapper = styled.footer`
 
     width: 100vw;
     height: 80px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
-    bottom: 20px;
-    left: 0;
 
     hr {
         width: 80%;
