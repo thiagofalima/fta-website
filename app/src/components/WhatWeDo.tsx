@@ -14,7 +14,7 @@ const WhatWeDoWrapper = styled.section`
     padding: 16px;
   }
 
-  h2 {
+  h2.title {
     font-size: 1.5em;
     font-weight: 700;
     margin: 16px 0;
@@ -26,7 +26,7 @@ export const WhatWeDo = () => {
   return (
     <WhatWeDoWrapper>
       <div className="container">
-        <h2>O que fazemos?</h2>
+        <h2 className="title">O que fazemos?</h2>
         <Products />
       </div>
     </WhatWeDoWrapper>
