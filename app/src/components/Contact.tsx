@@ -6,12 +6,11 @@ import wppIcon from "../assets/icons/wpp.svg";
 const Contacts = styled.div`
   div.contact {
     width: 500px;
-    margin: 1em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
+    margin-top: 1em;
+  }
+
+  img {
+    display: inline-flex;
   }
 
   img.wpp {
@@ -38,30 +37,30 @@ export const Contact = () => {
       <h2>Contato</h2>
       <Contacts>
         <div className="contact">
-          <img className="email" src={emailIcon} />
-          E-mail:{" "}
           <p className="contact email">
-            <a
-              target="_blank"
-              href="mailto:contato@rtasolutions.com.br"
-              className="link"
-            >
-              contato@rtasolutions.com.br
-            </a>
+            <img className="email" src={emailIcon} />
+            Email:
           </p>
+          <a
+            target="_blank"
+            href="mailto:contato@rtasolutions.com.br"
+            className="link"
+          >
+            contato@rtasolutions.com.br
+          </a>
         </div>
         <div className="contact">
-          <img className="wpp" src={wppIcon} />
           <p className="contact wpp">
-            WhatsApp:{" "}
-            <a
-              target="_blank"
-              href="https://wa.me/5511996916400?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
-              className="link"
-            >
-              (11)996916400
-            </a>
+            <img className="wpp" src={wppIcon} />
+            WhatsApp:
           </p>
+          <a
+            target="_blank"
+            href="https://wa.me/5511996916400?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+            className="link"
+          >
+            (11)996916400
+          </a>
         </div>
       </Contacts>
     </Wrapper>

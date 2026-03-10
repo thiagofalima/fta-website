@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.css";
 import Wrapper from "./Wrapper";
-// Import Swiper styles
+import logo from "../assets/rta_logo.jpeg"
 
 interface IProduct {
   title: string;
@@ -24,7 +24,6 @@ export const Products = () => {
     <Swiper
       spaceBetween={50}
       slidesPerView={1}
-      onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
       {productsInformation.map(({ title, description, imgPath }) => {
@@ -47,18 +46,18 @@ const productsInformation = [
     id: 1,
     title: "Automações RPA",
     description: "Automações RPA",
-    imgPath: "#",
+    imgPath: logo,
   },
   {
     id: 2,
     title: "Aplicações Web",
     description: "Aplicações Web",
-    imgPath: "#",
+    imgPath: logo,
   },
   {
     id: 3,
     title: "Sites / E-commerce",
     description: "Sites / E-commerce",
-    imgPath: "#",
+    imgPath: logo,
   },
 ];
