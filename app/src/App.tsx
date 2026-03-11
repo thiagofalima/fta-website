@@ -5,7 +5,7 @@ import { About } from "./components/About";
 import { WhatWeDo } from "./components/WhatWeDo";
 import { Center } from "@chakra-ui/react";
 import { Contact } from "./components/Contact";
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter} from "react-router-dom"
 
 function App() {
   return (
