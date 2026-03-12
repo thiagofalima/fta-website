@@ -20,7 +20,7 @@ export const Footer = () => {
   return (
     <FooterWrapper>
         <hr />
-        <p>&copy; RTA - Soluções</p>
+        <p>&copy; FTA - Soluções</p>
     </FooterWrapper>
   );
 };
